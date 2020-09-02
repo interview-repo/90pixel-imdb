@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+  .home-container{ @apply rounded-lg flex-col shadow-2xl;}
+  .home-box{ @apply bg-white text-gray-800 w-full flex flex-col z-10 shadow-2xl }
+  .home-small {@apply w-6/12 mx-auto h-auto;}
+  .home-medium { @apply w-6/12 mx-auto h-full;}
+  .home-medium .home-box{ @apply h-full;}
+
+  .home-big{ @apply w-full h-full;}
+  .home-big .home-box{ @apply h-full;}  
+
+
+  .number-input{}
+  .number-input .ant-input-number-handler-wrap{display: none}
+  .number-input .ant-input-number-input-wrap{}
+  .number-input .ant-input-number-input-wrap .ant-input-number-input{
+    border: 2px solid red;
+  }
+
+@tailwind utilities;

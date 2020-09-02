@@ -1,0 +1,25 @@
+{
+  "name": "imdb-react-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "antd": "^4.6.2",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.1",
+    "tailwindcss": "^1.7.4"
+  },
+  "license": "MIT"
+}
