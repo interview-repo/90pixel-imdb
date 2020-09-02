@@ -15,7 +15,11 @@
   .number-input .ant-input-number-handler-wrap{display: none}
   .number-input .ant-input-number-input-wrap{}
   .number-input .ant-input-number-input-wrap .ant-input-number-input{
-    border: 2px solid red;
+    border: 1px solid #cbd5e0;
+    padding: 9px 10px;
+    border-radius: 4px;
+    text-indent: 11px;
+    outline: none;
   }
 
 @tailwind utilities;
