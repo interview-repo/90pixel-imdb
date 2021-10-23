@@ -15,7 +15,7 @@
     "react-redux": "^7.2.1"
   },
   "devDependencies": {
-    "eslint": "^7.8.0",
+    "eslint": "^8.1.0",
     "postcss-flexbugs-fixes": "4.2.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.1",
